@@ -27,3 +27,12 @@ and use CSS Grid to lay them out evenly in 2 rows of 5 columns_
 in the center of the page_
 
 > Result to complete on my own `Success 🥳`
+
+## Third Challenge
+
+1. Write a function (allNewDice) that returns an array of 10 random
+   numbers between 1-6 inclusive.
+
+2. Log the array of numbers to the console for now
+
+> Result to complete on my own `Success!!!`
