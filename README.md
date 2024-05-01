@@ -1,8 +1,11 @@
-# React + Vite
+# Tenzies App Project - Second Scrimba Course
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## First Challenge
 
-Currently, two official plugins are available:
+1. Start a brand new React app!
+2. Create a separate App component
+3. Import and render the App component here
+4. In the App component, render a <main> element
+5. Style everything to look like the slide
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> Result to complete on my own ``
