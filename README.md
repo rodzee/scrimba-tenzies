@@ -36,3 +36,13 @@ in the center of the page_
 2. Log the array of numbers to the console for now
 
 > Result to complete on my own `Success!!!`
+
+## Forth Challenge
+
+1. Create state to hold our array of numbers. (Initialize the state by calling
+   our `allNewDice` function so it loads all new dice as soon as the app loads)
+
+2. Map over the state numbers array to generate our array of Die elements and
+   render those in place of our manually-written 10 Die elements.
+
+> Result to complete on my own `Success 🎉🎉🎉`
