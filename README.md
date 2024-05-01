@@ -8,4 +8,4 @@
 4. In the App component, render a <main> element
 5. Style everything to look like the slide
 
-> Result to complete on my own ``
+> Result to complete on my own `Success 👍`
