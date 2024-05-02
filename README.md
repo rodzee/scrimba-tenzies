@@ -46,3 +46,13 @@ in the center of the page_
    render those in place of our manually-written 10 Die elements.
 
 > Result to complete on my own `Success 🎉🎉🎉`
+
+## Fifth Challenge
+
+1. Create a `Roll Dice` button that will re-roll all 10 dice
+
+2. Clicking the button should generate a new array of numbers
+   and set the `dice` state to that new array (thus re-rendering
+   the array to the page)
+
+> Result to complete on my own `Success, Let's Go!`
