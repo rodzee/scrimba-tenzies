@@ -56,3 +56,13 @@ in the center of the page_
    the array to the page)
 
 > Result to complete on my own `Success, Let's Go!`
+
+## Sixth Challenge
+
+1. Update the array of numbers in state to be an array of objects instead.
+   Each object should look like: { value: <random number>, isHeld: false }
+
+**_Making this change will break parts of our code, so make
+sure to update things so we're back to a working state_**
+
+> Result to complete on my own `Success, I'm on a roll 🤘💻`
