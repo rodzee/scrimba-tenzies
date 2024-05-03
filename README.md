@@ -66,3 +66,12 @@ in the center of the page_
 sure to update things so we're back to a working state_**
 
 > Result to complete on my own `Success, I'm on a roll 🤘💻`
+
+## Seventh Challenge
+
+1. Add conditional styling to the Die component so that if it's held
+   (isHeld === true), its background color changes to a light green (#59E391)
+
+**_currently the Die component has no way of knowing if it's "held" or not_**
+
+> Result to complete on my own `Success, Unstoppable!`
