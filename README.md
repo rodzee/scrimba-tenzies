@@ -62,8 +62,8 @@ in the center of the page_
 1. Update the array of numbers in state to be an array of objects instead.
    Each object should look like: { value: <random number>, isHeld: false }
 
-**_Making this change will break parts of our code, so make
-sure to update things so we're back to a working state_**
+**_Hint:_** _Making this change will break parts of our code, so make
+sure to update things so we're back to a working state_
 
 > Result to complete on my own `Success, I'm on a roll 🤘💻`
 
@@ -72,6 +72,19 @@ sure to update things so we're back to a working state_**
 1. Add conditional styling to the Die component so that if it's held
    (isHeld === true), its background color changes to a light green (#59E391)
 
-**_currently the Die component has no way of knowing if it's "held" or not_**
+**_Hint:_** _currently the Die component has no way of knowing if it's "held" or not_
 
 > Result to complete on my own `Success, Unstoppable!`
+
+## Eighth Challenge
+
+1. Create a function `holdDice` that takes `id` as a parameter. For now,
+   just have the function console.log(id)
+
+2. Figure out how to pass that function down to each instance of the Die
+   component so when each one is clicked, it logs its own unique ID property.
+
+**_Hint:_** _there's more than one way to make that work, so just choose whichever
+you want_
+
+> Result to complete on my own `Fail 😔`
