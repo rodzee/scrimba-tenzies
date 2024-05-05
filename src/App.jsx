@@ -19,7 +19,11 @@ function App() {
   }
 
   function holdDice(id) {
-    return console.log(id);
+    setAllDice((prevDice) => {
+      return prevDice.map((die) => {
+        return id === die.id ? { ...die, isHeld: !die.isHeld } : die;
+      });
+    });
   }
 
   const diceElement = allDice.map((die) => (

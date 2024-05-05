@@ -88,3 +88,14 @@ sure to update things so we're back to a working state_
 you want_
 
 > Result to complete on my own `Fail 😔`
+
+## Ninth Challenge
+
+1. Update the `holdDice` function to flip the `isHeld` property on the object
+   in the array that was clicked, based on the `id` prop passed into the function.
+
+**_Hint:_** _As usual, there's > 1 way to accomplish this. I'll be using
+`dice.map()` and checking for the `id` of the die to determine which one to
+flip `isHeld` on, but you can do whichever way makes the most sense to you._
+
+> Result to complete on my own `Success, 😎`
