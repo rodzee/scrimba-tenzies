@@ -23,7 +23,7 @@
 **_Hint 1:_** _Create a container to hold the 10 instances of the Die component,
 and use CSS Grid to lay them out evenly in 2 rows of 5 columns_
 
-**_Hint 2:_** _Use flexbox on main to center the dice container
+**_Hint 2:_** _Use flexbox on main to center the allDice container
 in the center of the page_
 
 > Result to complete on my own `Success 🥳`
@@ -52,7 +52,7 @@ in the center of the page_
 1. Create a `Roll Dice` button that will re-roll all 10 dice
 
 2. Clicking the button should generate a new array of numbers
-   and set the `dice` state to that new array (thus re-rendering
+   and set the `allDice` state to that new array (thus re-rendering
    the array to the page)
 
 > Result to complete on my own `Success, Let's Go!`
@@ -110,3 +110,13 @@ When creating new dice, remember to use `id: nanoid()` so any new dice have an
 `id` as well._
 
 > Result to complete on my own `Fail from syntax error 💩`
+
+## Eleventh Challenge
+
+1. Add new state called `tenzies`, default to false. It represents whether the user
+   has won the game yet or not.
+
+2. Add an effect that runs every time the `allDice` state array changes. For now,
+   just console.log("Dice state changed").
+
+> Result to complete on my own `Success, This was the easiest so far.`
