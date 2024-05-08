@@ -1,10 +1,11 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 import { nanoid } from "nanoid";
 import Die from "./Die";
 
 function App() {
   const [allDice, setAllDice] = useState(allNewDice());
+  const [tenzies, setAllTenzies] = useState(false);
 
   function allNewDice() {
     const newDice = [];
@@ -48,6 +49,10 @@ function App() {
       });
     });
   }
+
+  useEffect(() => {
+    console.log("useEffect");
+  }, [allDice]);
 
   return (
     <main>
