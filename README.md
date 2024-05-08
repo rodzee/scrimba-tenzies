@@ -99,3 +99,14 @@ you want_
 flip `isHeld` on, but you can do whichever way makes the most sense to you._
 
 > Result to complete on my own `Success, 😎`
+
+## Tenth Challenge
+
+1. Update the `rollDice` function to not just roll all new dice, but instead to
+   look through the existing dice to NOT role any that are being `held`.
+
+**_Hint:_** _this will look relatively similiar to the `holdDice` function.
+When creating new dice, remember to use `id: nanoid()` so any new dice have an
+`id` as well._
+
+> Result to complete on my own `Fail from syntax error 💩`

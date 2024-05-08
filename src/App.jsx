@@ -35,8 +35,18 @@ function App() {
     />
   ));
 
-  function handleRoll() {
-    setAllDice(allNewDice());
+  function rollDice() {
+    setAllDice((prevDice) => {
+      return prevDice.map((die) => {
+        return die.isHeld
+          ? die
+          : {
+              value: Math.ceil(Math.random() * 6),
+              isHeld: false,
+              id: nanoid(),
+            };
+      });
+    });
   }
 
   return (
@@ -47,7 +57,7 @@ function App() {
         <p>Click each die to freeze it at its current value between rolls.</p>
       </aside>
       <div className="container">{diceElement}</div>
-      <button onClick={handleRoll}>Roll</button>
+      <button onClick={rollDice}>Roll</button>
     </main>
   );
 }
