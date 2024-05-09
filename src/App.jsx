@@ -5,7 +5,7 @@ import Die from "./Die";
 
 function App() {
   const [allDice, setAllDice] = useState(allNewDice());
-  const [tenzies, setAllTenzies] = useState(false);
+  const [tenzies, setTenzies] = useState(false);
 
   function allNewDice() {
     const newDice = [];
@@ -51,8 +51,19 @@ function App() {
   }
 
   useEffect(() => {
-    console.log("useEffect");
+    // Checks if all dice are held
+    const allHeld = allDice.every((die) => die.isHeld);
+
+    // Checks if all values are the same
+    const firstValue = allDice[0].value;
+    const allSameValue = allDice.every((die) => die.value === firstValue);
+
+    if (allHeld && allSameValue) {
+      setTenzies(true);
+      console.log("You Win!");
+    }
   }, [allDice]);
+  // console.log(allDice[0].value);
 
   return (
     <main>
