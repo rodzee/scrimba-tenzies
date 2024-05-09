@@ -120,3 +120,12 @@ When creating new dice, remember to use `id: nanoid()` so any new dice have an
    just console.log("Dice state changed").
 
 > Result to complete on my own `Success, This was the easiest so far.`
+
+## Twelfth Challenge
+
+1. Check the dice array for these winning conditions:
+   **a.** All dice are held - **b.** All dice have the same value
+
+2. If both conditions are true, set `tenzies` to true and log "You won!" to the console
+
+> Result to complete on my own `Fail, that was a tricky one`
