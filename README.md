@@ -129,3 +129,21 @@ When creating new dice, remember to use `id: nanoid()` so any new dice have an
 2. If both conditions are true, set `tenzies` to true and log "You won!" to the console
 
 > Result to complete on my own `Fail, that was a tricky one`
+
+## Thirteenth Challenge
+
+1. If tenzies is true, Change the button text to "New Game"
+
+2. If tenzies is true, use the "react-confetti" package to
+   render the <Confetti /> component 🎉
+
+**_Hint_** _don't worry about the `height` and `width` props it mentions in the
+documentation._
+
+> Result to complete on my own `Success!!!`
+
+## Final Challenge
+
+1. Allow the user to play a new game when the button is clicked and they've already won
+
+> Result to complete on my own ``
