@@ -146,4 +146,4 @@ documentation._
 
 1. Allow the user to play a new game when the button is clicked and they've already won
 
-> Result to complete on my own ``
+> Result to complete on my own `Success, Yay! 3 Fails this time. I'm getting better!`

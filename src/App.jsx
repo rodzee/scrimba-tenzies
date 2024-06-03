@@ -65,6 +65,11 @@ function App() {
     }
   }, [allDice]);
 
+  const handleReset = () => {
+    setAllDice(allNewDice());
+    setTenzies(false);
+  };
+
   return (
     <main>
       {tenzies && <Confetti />}
@@ -74,7 +79,7 @@ function App() {
         <p>Click each die to freeze it at its current value between rolls.</p>
       </aside>
       <div className="container">{diceElement}</div>
-      <button onClick={tenzies ? allNewDice : rollDice}>
+      <button onClick={tenzies ? handleReset : rollDice}>
         {tenzies ? "New Game" : "Roll"}
       </button>
     </main>
